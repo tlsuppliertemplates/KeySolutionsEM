@@ -2,7 +2,7 @@
     width:100%;
 }
 .logo{
-    margin: 30px 0 50px 4%;
+    margin:20px 0 20px 32px;
     display: block;
 }
 .logo img{
@@ -11,6 +11,33 @@
 .product_info{
     margin:25px 0 40px;
     
+}
+.inner_banner_text {
+	width: 49%;
+    position: absolute;
+    top: 15%;
+    left: 0;
+    margin: 0 auto;
+}
+.inner_banner_text h1 {
+    margin-left: 50px;
+}
+.inner_banner_text h1 span {
+	color: #fff;
+	font-family: RobotoCondensed-Light;
+	font-size: 46px;
+    font-weight: 400;
+    line-height: 80px;
+	margin: 0 0 50px 0;
+    padding: 0;
+}
+.inner_banner_text h2 {
+    margin-left: 50px;
+	color: #fff;
+	font-family: Roboto-Light;
+	font-size: 22px;
+    line-height: 37px;
+    letter-spacing: 0.8px;
 }
 .product_info h2{
     font-family: RobotoCondensed-Light;
@@ -79,3 +106,20 @@
     font-weight: normal;
     text-decoration:none;
 }
+.banner_img{
+    width:100%;
+    background: url(../images/ai5.png) no-repeat;
+    background-size:cover;
+    height: 600px;
+    background-position: center center;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape){
+
+}
+
+/* .inner_banner_text {
+    width: 58% !important;
+}
+.inner_banner_text h2 {
+    width: 60%;
+} */
