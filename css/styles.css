@@ -2,7 +2,7 @@
     width:100%;
 }
 .logo{
-    margin:20px 0 20px 32px;
+    margin:20px 0 20px 30px;
     display: block;
 }
 .logo img{
@@ -106,13 +106,13 @@
     font-weight: normal;
     text-decoration:none;
 }
-.banner_img{
+/* .banner_img{
     width:100%;
     background: url(../images/ai5.png) no-repeat;
     background-size:cover;
     height: 600px;
     background-position: center center;
-}
+} */
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape){
 
 }
