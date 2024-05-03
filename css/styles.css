@@ -9,7 +9,7 @@
     width:auto;
 }
 .product_info{
-    padding: 25px 20px 40px 45px !important;
+    padding: 25px 20px 30px 45px !important;
     background: #f4f4f4;    
 }
 .inner_banner_text {
@@ -47,6 +47,13 @@
     font-weight: 500;
     margin: 0 0 25px;
 }
+.product_info p{
+    font-size: 18px;
+    font-family: Roboto-Light;
+    line-height: 28px;
+    margin: 0 0 24px;
+    color: #444;
+}
 .product_info_left{
     padding-left: 0;
 }
@@ -57,18 +64,36 @@
 }
 .product_info_right h3{ 
 	font-family: Roboto-Regular;
-    margin:10px 0 20px 10px;
+    margin:10px 0 20px 0;
 }
 .product_info_right ul{
     padding-left: 30px;
-    margin: 0 0 35px;
+    margin: 0 0 24px;
 }
 .product_info_right ul li{
     font-size: 18px;
     font-family: Roboto-Light;
     color: #444;
     line-height: 28px;
-    padding:10px 0;
+    margin:10px 0;
+    list-style-type: none;
+    position: relative; 
+}
+li::before {
+    content: '';
+    position: absolute;
+    left: -21px;
+    top: 10px;
+    height: 8px;
+    width: 8px;
+    line-height: 60px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #444;
+}
+.product_info_right ul li::marker{
+    font-size: 30px;
 }
 .product_info_right a {
     background-color: #890000;
@@ -79,12 +104,13 @@
     border-radius: 30px;
     padding: 10px 25px 10px;
     letter-spacing: 0.2px;
+    display: inline-block;
 }
 .product_info_right a:hover{
     background-color:#00024d;
 }
 .contact_us{
-    background: url(../images/banner2.jpg) no-repeat;
+    background: url(../images/footer_bg.jpg) no-repeat;
     width: 100%;
     height: auto;
     background-size: cover;
@@ -218,7 +244,7 @@
         margin: 0 0 16px;
     }
     .product_info_right h3 {
-        margin: 0 0 5px 0;
+        margin: 0 0 20px 0;
         font-size: 17px;
     }
     .product_info_right ul {
@@ -228,7 +254,7 @@
     .product_info_right ul li {
         font-size: 16px;
         line-height: 24px;
-        padding: 6px 0;
+        margin:10px 0;
     }
     .product_info_right a {
         font-size: 16px;
