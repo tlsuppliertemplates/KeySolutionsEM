@@ -133,13 +133,9 @@ li::before {
     font-weight: normal;
     text-decoration:none;
 }
-/* .banner_img{
-    width:100%;
-    background: url(../images/ai5.png) no-repeat;
-    background-size:cover;
-    height: 600px;
-    background-position: center center;
-} */
+.animal_research_lp3{
+    width: 37%;
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .logo {
         margin: 20px 0 20px 10px;
@@ -167,7 +163,7 @@ li::before {
         margin: 20px 0 20px 10px;
     }
     .inner_banner_text {
-        width: 60% !important;
+        width: 59% !important;
         margin-top: 0 !important;
         top: 8%;
     }
@@ -186,6 +182,17 @@ li::before {
     }
     .contact_us {
         padding:30px 10px;
+    }
+    .animal_research_lp2{
+        width: 46% !important;
+        top: 12% !important;
+    }
+    .animal_research_lp3{
+        width: 61% !important;
+        top: 10% !important;
+    }
+    .animal_research_lp4{
+        top:3% !important;
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
@@ -267,6 +274,17 @@ li::before {
     .contact_us {
         padding: 25px 15px 20px;
     }
+    
+    .animal_research_lp2{
+        width: 60% !important;
+        top: 12px;
+    }  
+    .animal_research_lp3{
+        width: 61% !important;
+    }
+    .animal_research_lp3 h1{
+        width: 72% !important;
+    }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
     
@@ -292,5 +310,11 @@ li::before {
     }
     .product_info {
         padding: 18px 10px 30px 22px !important;
+    }
+    .animal_research_lp2{
+        width: 52% !important;
+    }     
+    .animal_research_lp3 {
+        width: 51% !important;
     }
 }
