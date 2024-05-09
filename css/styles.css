@@ -3,7 +3,7 @@
 }
 .logo{
     margin:20px 0 16px 30px;
-    display: block;
+    display:inline-block;
 }
 .logo img{
     width:auto;
@@ -135,6 +135,7 @@ li::before {
 }
 .animal_research_lp3{
     width: 37%;
+    top:10%;   
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .logo {
