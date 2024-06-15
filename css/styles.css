@@ -12,6 +12,10 @@
     padding: 25px 20px 30px 45px !important;
     background: #f4f4f4;    
 }
+.product_info_form{
+    padding:38px 45px 30px 30px !important;
+    background: #f4f4f4;    
+}
 .inner_banner_text {
 	width: 49%;
     position: absolute;
@@ -137,6 +141,9 @@ li::before {
     width: 37%;
     top:10%;   
 }
+.wl_banner{
+    top: 25% !important;
+}
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .logo {
         margin: 20px 0 20px 10px;
@@ -167,6 +174,9 @@ li::before {
         width: 59% !important;
         margin-top: 0 !important;
         top: 8%;
+    }
+    .wl_banner {
+        top: 19% !important;
     }
     .inner_banner_text h1 {
         margin-left: 30px;
@@ -285,6 +295,13 @@ li::before {
     }
     .animal_research_lp3 h1{
         width: 72% !important;
+    }
+    .wl_banner {
+        width: 58% !important;
+        top: 14% !important;
+    }
+    .product_info_form {
+        padding: 10px 10px 30px 12px !important;
     }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (orientation: landscape) {
